@@ -13,9 +13,9 @@
             <input type="text" name="last_name" placeholder="Last Name"><br><br>
             <input type="submit" name="submit" value="submit"><br><br>
         </form>
-        <h1>hellow
+        <h2>hellow
         Hello {first_name} {last_name}! Greetings from BindAPI.
-        </h1>
+        </h2>
         <?php
             
              if(isset($_POST['submit']))
