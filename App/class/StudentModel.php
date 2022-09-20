@@ -18,4 +18,5 @@ class StudentModel
         $stmt = $this->conn->prepare($sql);
         $stmt->execute([$data['first_name'], $data['second_name'], $data['mobile']]);
     }
+    
 }

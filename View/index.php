@@ -24,6 +24,12 @@
 
                 echo"<h2>Hello $first_name $second_name ! Greeting from BindAPI. </h2>";
             }
+            if($_POST) {
+                echo '<script> alert("successfuly added")</script>';
+             } else{
+                echo '<script>alert("Failed added")</script>';
+             }
+
         ?>
     </div>
 </body>
