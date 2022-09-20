@@ -1,3 +1,4 @@
 <?php
-include'./App/class/StudentConroller.php';
-include'./App/class/StudentModel.php';
+include'./App/class/Config.php';
+include'./App/class/Controller.php';
+include'./App/class/Model.php';
